@@ -1,0 +1,20 @@
+{
+  "name": "stamped",
+  "version": "0.0.1",
+  "description": "Stamped goal is to provide a modular environment for JS game development based on Stamp{it} by Eric Elliot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "aaa"
+  },
+  "keywords": [
+    "stampit",
+    "game",
+    "framework"
+  ],
+  "author": "Josselin TILLAY-DOLEDEC",
+  "license": "ISC"
+}
