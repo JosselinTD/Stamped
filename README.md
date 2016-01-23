@@ -1,14 +1,14 @@
-= Stamped, the game framework
+# Stamped, the game framework
 
 Stamped goal is to provide a modular environment for JS game development based on Stamp{it} by Eric Elliot.
 
-== Dependency
+## Dependency
 
 Stamp{it} doesn't provide a dependency mechanism. For example, if I create a MoveWithArrows Stamp, objects stamped with MoveWithArrows should have a Placeable Stamp which provide a X/Y/Z coordinate system.
 
 So, each Stamp should store the stamps they rely on, so we can fire errors easily.
 
-== Architecture example
+## Architecture example
 
 PlayableCharacter
 	<- MoveWithArrows { Dep : Placeable }
@@ -22,9 +22,9 @@ PNJ
 	<- Actionnable
 	<- Clickable { Dep : Actionnable }
 
-=== Discussion
+### Discussion
 
-==== Why dependencies ?
+#### Why dependencies ?
 
 We could simply Stamp MoveWithArrows with Placeable. Architecture could be :
 
@@ -41,11 +41,11 @@ Cons : we over-Stamp some objects
 
 It's a good question to ask once some development is on the road.
 
-== Tooling
+## Tooling
 
 We use NPM as package-manager.
 
-== TODOS
+## TODOS
 
 * Init NPM (OK)
 * Install Stamp{it}
