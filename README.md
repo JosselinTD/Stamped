@@ -47,7 +47,7 @@ We use NPM as package-manager.
 
 == TODOS
 
-* Init NPM
+* Init NPM (OK)
 * Install Stamp{it}
 * Improve Stamp{it} with a dependencies mechanism
 * Create a Stamp for Canvas and at least one famous rendering library (Three.js for example)
