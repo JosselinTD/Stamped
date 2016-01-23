@@ -11,15 +11,24 @@ So, each Stamp should store the stamps they rely on, so we can fire errors easil
 ## Architecture example
 
 PlayableCharacter
+
 	<- MoveWithArrows { Dep : Placeable }
+
 	<- Character
+
 		<- Placeable
+
 		<- Renderable
+		
 PNJ
 	<- Character
+
 		<- Placeable
+
 		<- Renderable
+
 	<- Actionnable
+
 	<- Clickable { Dep : Actionnable }
 
 ### Discussion
