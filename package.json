@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "aaa"
+    "url": "https://github.com/JosselinTD/Stamped"
   },
   "keywords": [
     "stampit",
@@ -16,5 +16,8 @@
     "framework"
   ],
   "author": "Josselin TILLAY-DOLEDEC",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "stampit": "^2.1.1"
+  }
 }
